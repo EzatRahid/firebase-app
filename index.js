@@ -1,8 +1,8 @@
 let inputEl = document.getElementById('input')
 let addBtn = document.getElementById('add')
 
-console.log(inputEl)
 
 addBtn.addEventListener('click', () =>{
-
+    let inputValue = inputEl
+    console.log(inputValue)
 })
