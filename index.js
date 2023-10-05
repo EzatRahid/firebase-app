@@ -19,5 +19,3 @@ addBtn.addEventListener('click', () =>{
     push(moviesInDb(inputValue))
     console.log(inputValue)
 }) 
-}) 
-}) 
