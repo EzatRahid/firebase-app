@@ -13,11 +13,17 @@ console.log(app)
 
 let inputEl = document.getElementById('input')
 let addBtn = document.getElementById('add')
+let list = document.getElementById('ulist')
+
 
 
 addBtn.addEventListener('click', () =>{
     let inputValue = inputEl.value
     push(shoppingListInDB, inputValue)
     console.log(inputValue)
-    inputValue.value = ''
+    inputEl.value = ''
+
+    let listItem = document.createElement('li')
+    listItem.innerHTML = inputValue
+    list.appendChild(listItem)
 }) 
