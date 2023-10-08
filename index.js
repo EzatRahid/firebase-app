@@ -48,5 +48,4 @@ let ezat = {
 }
 
 console.log(Object.entries(ezat))
-console.log(Object.entries(ezat))
-console.log(Object.entries(ezat))
+
