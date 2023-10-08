@@ -25,7 +25,7 @@ body{
 .container input{
     margin-bottom: 8px;
     border-radius: 5px;
-    color: white;
+    color: black;
     border: 0;
     padding: 10px 24px;
     text-align: center;
@@ -43,3 +43,7 @@ body{
     cursor: pointer;
 }
 
+ul{
+    text-align: center;
+    margin:16px 0;
+}
